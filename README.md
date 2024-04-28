@@ -4,7 +4,7 @@ This repository comprises C++ files compatible with Linux, enabling illumination
 
 ## Motivation
 
-I've received this fantastic gaming mouse full of features as a gift, but unfortunately, I'm not an avid gamer. Moreover, the software designed to configure the mouse functionalities isn't compatible with Linux; even when attempting to use Wine, the software fails to recognize the device. Consequently, I contemplated creating a driver to ensure compatibility on Linux. Then, I pondered, "Why not utilize the emitted colors for a useful purpose?" Perhaps as a notification system tied to the PC's battery level and status. Alternatively, I considered crafting a driver to alert the user when someone rings the doorbell or any other potential notification.
+I've received this fantastic gaming mouse full of features as a gift, but unfortunately, I'm not an avid gamer. Moreover, the software designed to configure the mouse functionalities isn't compatible with Linux; even when attempting to use Wine, the software fails to recognize the device. Consequently, I contemplated creating a driver to ensure compatibility on Linux. Then, I pondered, "Why not utilize the emitted colors for a useful purpose?" Perhaps as a notification system tied to the PC's battery level and status. Alternatively, I considered developing a driver to alert the user when someone rings the doorbell or any other potential notification.
 
 ## Reverse engineering
 
