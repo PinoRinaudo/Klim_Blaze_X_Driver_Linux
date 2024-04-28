@@ -111,7 +111,6 @@ void createDaemon()
     {
         close(x);
     }
-
 }
 
 int main()
@@ -148,13 +147,13 @@ int main()
                 sleep(DELAY_SEC);
         }
 
-        if (battery->getBatteryPlugged())
-        {
-            mouse->setStream();
-            while (battery->getBatteryPlugged())
-                sleep(DELAY_SEC);
-            prevBatteryLevel = 200;
-        }
+        if (battery->getBatteryPlugged() > 0)
+            {
+                mouse->setStream();
+                while (battery->getBatteryPlugged() > 0)
+                    sleep(DELAY_SEC);
+                prevBatteryLevel = 200;
+            }
 
         actualBatteryLevel = battery->getBatteryLevel();
 
