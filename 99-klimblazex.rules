@@ -1,0 +1,2 @@
+SUBSYSTEM=="usb", ATTR{idVendor}=="260d", ATTR{idProduct}=="1074", ACTION=="add", RUN+="/bin/systemctl start klimbxd.service"
+SUBSYSTEM=="usb", ENV{PRODUCT}="260d/1074/1332", ACTION=="remove", RUN+="/bin/systemctl stop klimbxd.service"

@@ -1,0 +1,9 @@
+[Unit]
+Description = My Custom Service
+
+[Service]
+Type = forking
+ExecStart = /bin/klimbxd
+Restart = on-failure
+
+[Install]
